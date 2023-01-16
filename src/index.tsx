@@ -10,7 +10,7 @@ type SquareProps = {
     onClick: () => void
 }
 
-const Square = (props: SquareProps) => (
+export const Square = (props: SquareProps) => (
     <button className='square' onClick={props.onClick}>
         {props.value}
     </button>
@@ -23,7 +23,7 @@ type BoardProps = {
     onClick: (i: number) => void
 }
 
-const Board = (props: BoardProps) => {
+export const Board = (props: BoardProps) => {
     const renderSquare = (i: number) => (
         <Square value={props.squares[i]} onClick={() => props.onClick(i)} />
     )
@@ -59,7 +59,7 @@ type GameState = {
     readonly stepNumber: number
 }
 
-const Game = () => {
+export const Game = () => {
     const [state, setState] = useState<GameState>({
         history: [
             {
