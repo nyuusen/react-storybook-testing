@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Board } from '..';
+import { Board } from '../components/Board';
 
 export default {
   title: 'Board',

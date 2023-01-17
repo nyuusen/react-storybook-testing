@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Square } from '..';
+import { Square } from '../components/Square';
 
 export default {
   title: 'Square',
