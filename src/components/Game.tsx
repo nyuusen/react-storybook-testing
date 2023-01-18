@@ -29,7 +29,7 @@ export const Game = () => {
   if (winner) {
       status = `Winner: ${winner}`
   } else {
-      status = `Next player: ${current.xIsNext ? 'X' : 'O'}`
+      status = `次のプレイヤー: ${current.xIsNext ? 'X' : 'O'}`
   }
 
   const handleClick = (i: number) => {
