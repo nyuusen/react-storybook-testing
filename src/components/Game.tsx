@@ -28,6 +28,8 @@ export const Game = () => {
   let status: string
   if (winner) {
       status = `Winner: ${winner}`
+  } else if (state.stepNumber === 9) {
+      status = 'Draw!'
   } else {
       status = `次のプレイヤー: ${current.xIsNext ? 'X' : 'O'}`
   }
