@@ -10,25 +10,19 @@ type BoardProps = {
 
 export const Board = (props: BoardProps) => {
     const renderSquare = (i: number) => (
-        <Square value={props.squares[i]} onClick={() => props.onClick(i)} />
+        <Square value={props.squares[i]} position={i} onClick={() => props.onClick(i)} />
     )
 
     return (
         <div>
             <div className='board-row'>
-                {renderSquare(0)}
-                {renderSquare(1)}
-                {renderSquare(2)}
+                {[0, 1, 2].map((i) => (renderSquare(i)))}
             </div>
             <div className='board-row'>
-                {renderSquare(3)}
-                {renderSquare(4)}
-                {renderSquare(5)}
+                {[3, 4, 5].map((i) => (renderSquare(i)))}
             </div>
             <div className='board-row'>
-                {renderSquare(6)}
-                {renderSquare(7)}
-                {renderSquare(8)}
+                {[6, 7, 8].map((i) => (renderSquare(i)))}
             </div>
         </div>
     )

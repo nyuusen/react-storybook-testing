@@ -78,7 +78,7 @@ export const Game = () => {
               <Board squares={current.squares} onClick={handleClick} />
           </div>
           <div className='game-info'>
-              <div>{status}</div>
+              <div data-cy="game-status">{status}</div>
               <ol>{moves}</ol>
           </div>
       </div>
