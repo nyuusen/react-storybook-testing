@@ -23,6 +23,19 @@ describe('tic tac toe', () => {
 
     cy.get('[data-cy="game-status"]').should('have.text', 'Draw!')
   })
+
+  /* ==== Test Created with Cypress Studio ==== */
+  it('x player win (by cypress-studio)', function() {
+    /* ==== Generated with Cypress Studio ==== */
+    cy.visit('/');
+    cy.get('[data-cy="square-0"]').click();
+    cy.get('[data-cy="square-1"]').click();
+    cy.get('[data-cy="square-3"]').click();
+    cy.get('[data-cy="square-4"]').click();
+    cy.get('[data-cy="square-6"]').click();
+    cy.get('[data-cy="game-status"]').should('have.text', 'Winner: X');
+    /* ==== End Cypress Studio ==== */
+  });
 })
 
 export {}
