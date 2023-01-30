@@ -17,3 +17,8 @@ export const AllFilledTriangle = Template.bind({});
 AllFilledTriangle.args = {
   squares: Array(9).fill('△')
 };
+
+export const DrawBoard= Template.bind({});
+DrawBoard.args = {
+  squares: ['X', 'O', 'X', 'X', 'O', 'O', 'O', 'X', 'X']
+};
