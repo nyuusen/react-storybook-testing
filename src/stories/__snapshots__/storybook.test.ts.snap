@@ -7,40 +7,21 @@ exports[`Storyshots Board All Filled Triangle 1`] = `
   >
     <button
       className="square"
+      data-cy="square-0"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
+      data-cy="square-1"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
-      onClick={[Function]}
-    >
-      △
-    </button>
-  </div>
-  <div
-    className="board-row"
-  >
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      △
-    </button>
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      △
-    </button>
-    <button
-      className="square"
+      data-cy="square-2"
       onClick={[Function]}
     >
       △
@@ -51,21 +32,129 @@ exports[`Storyshots Board All Filled Triangle 1`] = `
   >
     <button
       className="square"
+      data-cy="square-3"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
+      data-cy="square-4"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
+      data-cy="square-5"
       onClick={[Function]}
     >
       △
+    </button>
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      data-cy="square-6"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      data-cy="square-7"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      data-cy="square-8"
+      onClick={[Function]}
+    >
+      △
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Board Draw Board 1`] = `
+<div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      data-cy="square-0"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      data-cy="square-1"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      data-cy="square-2"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      data-cy="square-3"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      data-cy="square-4"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      data-cy="square-5"
+      onClick={[Function]}
+    >
+      O
+    </button>
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      data-cy="square-6"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      data-cy="square-7"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      data-cy="square-8"
+      onClick={[Function]}
+    >
+      X
     </button>
   </div>
 </div>
@@ -78,30 +167,17 @@ exports[`Storyshots Board Empty Board 1`] = `
   >
     <button
       className="square"
+      data-cy="square-0"
       onClick={[Function]}
     />
     <button
       className="square"
+      data-cy="square-1"
       onClick={[Function]}
     />
     <button
       className="square"
-      onClick={[Function]}
-    />
-  </div>
-  <div
-    className="board-row"
-  >
-    <button
-      className="square"
-      onClick={[Function]}
-    />
-    <button
-      className="square"
-      onClick={[Function]}
-    />
-    <button
-      className="square"
+      data-cy="square-2"
       onClick={[Function]}
     />
   </div>
@@ -110,14 +186,36 @@ exports[`Storyshots Board Empty Board 1`] = `
   >
     <button
       className="square"
+      data-cy="square-3"
       onClick={[Function]}
     />
     <button
       className="square"
+      data-cy="square-4"
       onClick={[Function]}
     />
     <button
       className="square"
+      data-cy="square-5"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      data-cy="square-6"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      data-cy="square-7"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      data-cy="square-8"
       onClick={[Function]}
     />
   </div>
@@ -137,30 +235,17 @@ exports[`Storyshots Game Default 1`] = `
       >
         <button
           className="square"
+          data-cy="square-0"
           onClick={[Function]}
         />
         <button
           className="square"
+          data-cy="square-1"
           onClick={[Function]}
         />
         <button
           className="square"
-          onClick={[Function]}
-        />
-      </div>
-      <div
-        className="board-row"
-      >
-        <button
-          className="square"
-          onClick={[Function]}
-        />
-        <button
-          className="square"
-          onClick={[Function]}
-        />
-        <button
-          className="square"
+          data-cy="square-2"
           onClick={[Function]}
         />
       </div>
@@ -169,14 +254,36 @@ exports[`Storyshots Game Default 1`] = `
       >
         <button
           className="square"
+          data-cy="square-3"
           onClick={[Function]}
         />
         <button
           className="square"
+          data-cy="square-4"
           onClick={[Function]}
         />
         <button
           className="square"
+          data-cy="square-5"
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          data-cy="square-6"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-cy="square-7"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-cy="square-8"
           onClick={[Function]}
         />
       </div>
@@ -185,7 +292,9 @@ exports[`Storyshots Game Default 1`] = `
   <div
     className="game-info"
   >
-    <div>
+    <div
+      data-cy="game-status"
+    >
       次のプレイヤー: X
     </div>
     <ol>
@@ -204,6 +313,7 @@ exports[`Storyshots Game Default 1`] = `
 exports[`Storyshots Square Circle 1`] = `
 <button
   className="square"
+  data-cy="square-undefined"
 >
   O
 </button>
@@ -212,6 +322,7 @@ exports[`Storyshots Square Circle 1`] = `
 exports[`Storyshots Square Cross 1`] = `
 <button
   className="square"
+  data-cy="square-undefined"
 >
   X
 </button>
